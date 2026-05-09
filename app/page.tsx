@@ -211,8 +211,8 @@ export default function ChatReader() {
     <div className={isFullscreen ? "fixed inset-0 z-50 bg-slate-900 flex flex-col" : "min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 p-4"}>
       {!isFullscreen && (
         <header className="text-center mb-6">
-          <h1 className="text-4xl font-black text-white mb-2">📖 JSON Chat Reader</h1>
-          <p className="text-slate-400">Загрузите JSON или JSONL файл сессии чата с ИИ</p>
+          <h1 className="text-4xl font-black text-white mb-2">📖 JSON GEMINI Chat Reader</h1>
+          <p className="text-slate-400">Загрузите JSON или JSONL файл сессии чата с Gemini</p>
         </header>
       )}
 
